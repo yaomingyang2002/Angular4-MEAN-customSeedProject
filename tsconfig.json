@@ -1,0 +1,24 @@
+
+//required for compilation of typescript
+
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+//    "module": "commonjs",
+    "target": "es5",
+//    "noImplicitAny": false,
+//    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots":[
+      "node_modules/@types"
+    ],
+    "lib":[
+      "es5",
+      "dom"
+    ]
+
+  }
+
+}
+
